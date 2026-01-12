@@ -69,21 +69,39 @@ const Contact: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
-                    <input type="text" className="w-full px-5 py-3 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 transition-all" style={{ '--tw-ring-color': COLORS.lightGreen } as any} placeholder="Enter your company" />
+                    <input 
+                      type="text" 
+                      className="w-full px-5 py-3 rounded-2xl border border-gray-200 bg-white text-gray-900 focus:outline-none focus:ring-2 transition-all" 
+                      style={{ '--tw-ring-color': COLORS.lightGreen } as any} 
+                      placeholder="Enter your company" 
+                    />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Contact Person</label>
-                    <input type="text" className="w-full px-5 py-3 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 transition-all" style={{ '--tw-ring-color': COLORS.lightGreen } as any} placeholder="Full name" />
+                    <input 
+                      type="text" 
+                      className="w-full px-5 py-3 rounded-2xl border border-gray-200 bg-white text-gray-900 focus:outline-none focus:ring-2 transition-all" 
+                      style={{ '--tw-ring-color': COLORS.lightGreen } as any} 
+                      placeholder="Full name" 
+                    />
                   </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                    <input type="email" className="w-full px-5 py-3 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 transition-all" style={{ '--tw-ring-color': COLORS.lightGreen } as any} placeholder="email@company.com" />
+                    <input 
+                      type="email" 
+                      className="w-full px-5 py-3 rounded-2xl border border-gray-200 bg-white text-gray-900 focus:outline-none focus:ring-2 transition-all" 
+                      style={{ '--tw-ring-color': COLORS.lightGreen } as any} 
+                      placeholder="email@company.com" 
+                    />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Variety Interested In</label>
-                    <select className="w-full px-5 py-3 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 transition-all" style={{ '--tw-ring-color': COLORS.lightGreen } as any}>
+                    <select 
+                      className="w-full px-5 py-3 rounded-2xl border border-gray-200 bg-white text-gray-900 focus:outline-none focus:ring-2 transition-all appearance-none" 
+                      style={{ '--tw-ring-color': COLORS.lightGreen } as any}
+                    >
                       <option>Hass Avocado</option>
                       <option>Fuerte Avocado</option>
                       <option>Both Varieties</option>
@@ -92,11 +110,21 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Estimated Volume (Tons/Week)</label>
-                  <input type="text" className="w-full px-5 py-3 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 transition-all" style={{ '--tw-ring-color': COLORS.lightGreen } as any} placeholder="e.g., 20 Tons" />
+                  <input 
+                    type="text" 
+                    className="w-full px-5 py-3 rounded-2xl border border-gray-200 bg-white text-gray-900 focus:outline-none focus:ring-2 transition-all" 
+                    style={{ '--tw-ring-color': COLORS.lightGreen } as any} 
+                    placeholder="e.g., 20 Tons" 
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Message / Special Requirements</label>
-                  <textarea rows={4} className="w-full px-5 py-3 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 transition-all" style={{ '--tw-ring-color': COLORS.lightGreen } as any} placeholder="Tell us more about your requirements..."></textarea>
+                  <textarea 
+                    rows={4} 
+                    className="w-full px-5 py-3 rounded-2xl border border-gray-200 bg-white text-gray-900 focus:outline-none focus:ring-2 transition-all" 
+                    style={{ '--tw-ring-color': COLORS.lightGreen } as any} 
+                    placeholder="Tell us more about your requirements..."
+                  ></textarea>
                 </div>
                 <button 
                   type="submit" 
